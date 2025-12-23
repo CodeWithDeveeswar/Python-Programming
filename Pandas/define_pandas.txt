@@ -1,0 +1,38 @@
+☑ 1. What is Pandas?
+   Pandas is a powerful Python library used for data analysis and manipulation.
+
+☑ What is a DataFrame in Pandas?
+   A DataFrame is the core data structure in Pandas, used to store tabular data
+   (like an Excel sheet or SQL table).
+
+☑ Key Points About DataFrame
+   📌 2D structure
+      Rows × Columns
+
+   Think of it as a table with labeled rows and columns.
+
+☑ Labeled axes
+   ✔ Columns have names (labels)
+   ✔ Rows have index numbers (can be custom too)
+
+☑ Heterogeneous data allowed
+   Each column can have different data types (int, float, string, etc.)
+
+☑ Column operations are easy
+   You can select, rename, delete, or add new columns easily.
+
+☑ Built-in functions
+   Statistical summaries, sorting, filtering, merging, group-by, pivoting, etc.
+
+☑ Data import/export
+   Easily read/write to CSV, Excel, SQL, JSON, etc.
+
+------------------------------------------------------------------------------------------------
+ 📊 Pain Point        | Description
+------------------------------------------------------------------------------------------------
+ 🔁 Manual Looping    | You have to manually loop through both tables
+ 📝 Verbose           | Code becomes long and repetitive
+ 📖 Hard to Read      | Hard to debug or maintain
+ 🐌 Slower            | Not optimized for large data sets
+ ❌ No Flexibility    | Hard to do other joins like `left`, `outer`, `right` without extra code
+------------------------------------------------------------------------------------------------

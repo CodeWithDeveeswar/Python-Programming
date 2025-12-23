@@ -1,0 +1,8 @@
+curl (client URL) – Command-line tool to send HTTP requests
+
+Run product_api.py and use curl command
+
+Terminal command:
+curl -X POST -d "name=ProductA" http://127.0.0.1:5000/api/add
+curl -X DELETE http://127.0.0.1:5000/api/delete/ProductA
+

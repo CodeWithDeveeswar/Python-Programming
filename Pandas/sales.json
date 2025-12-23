@@ -1,0 +1,26 @@
+[
+  {
+    "Date":"2025-01-01",
+    "Product":"Shirt",
+    "Price":500,
+    "Quantity":2
+  },
+  {
+    "Date":"2025-01-01",
+    "Product":"Pant",
+    "Price":800,
+    "Quantity":1
+  },
+  {
+    "Date":"2025-01-02",
+    "Product":"Shirt",
+    "Price":500,
+    "Quantity":1
+  },
+  {
+    "Date":"2025-01-02",
+    "Product":"Pant",
+    "Price":800,
+    "Quantity":3
+  }
+]

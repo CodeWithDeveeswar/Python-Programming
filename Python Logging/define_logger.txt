@@ -1,0 +1,22 @@
+A logger is a tool used to record messages from your program while it runs.
+It helps you debug, monitor, and maintain your code more effectively.
+It's part of Python's built-in `logging` module.
+
+|---------------------------------------------------------------------|
+| Level     | Purpose                                                 |
+|---------------------------------------------------------------------|
+| DEBUG     | Detailed information (for development only)             |
+| INFO      | General information (app started, process running, etc.)|
+| WARNING   | Something might go wrong                                |
+| ERROR     | Something went wrong                                    |
+| CRITICAL  | Serious error (application may crash)                   |
+|---------------------------------------------------------------------|
+
+----------------------------
+Limitations of using print()
+----------------------------
+❌ You can't set log levels (e.g., info vs error)
+❌ You can't redirect output easily to a file
+❌ You can't filter messages (e.g., show only errors)
+❌ No timestamps unless you manually add them
+❌ No format control

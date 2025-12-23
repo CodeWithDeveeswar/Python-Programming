@@ -1,0 +1,4 @@
+2025-12-23 13:43:29,839 - INFO - Dividing 100 and 5
+2025-12-23 13:43:29,840 - DEBUG - Result: 20.0
+2025-12-23 13:43:29,840 - INFO - Dividing 10 and 0
+2025-12-23 13:43:29,840 - ERROR - Tried to divide by zero!
