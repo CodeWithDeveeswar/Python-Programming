@@ -37,7 +37,7 @@ try:
             print(row)
 
         # Step 5: Write row to file
-        with open("employee_output.txt", "w") as f:
+        with open("DB Connection/employee_output.txt", "w") as f:
             for row in result:
                 f.write(f"{row}\n")
 finally:

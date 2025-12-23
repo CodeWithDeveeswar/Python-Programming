@@ -4,7 +4,7 @@ from cryptography.fernet import Fernet
 # Generate key and save to file
 def generate_key():
     key = Fernet.generate_key()
-    with open("secret.key", "wb") as f:
+    with open("DB Connection/Password Masking/secret.key", "wb") as f:
         f.write(key)
     print("✅ Key saved to 'secret.key'")
 

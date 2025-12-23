@@ -10,7 +10,7 @@ class FakeStr(str):
 
 # Load the secret key
 def load_key():
-    return open("secret.key", "rb").read()
+    return open("DB Connection/Password Masking/secret.key", "rb").read()
 
 # Encrypt the plain password
 def encrypt_password(password):
@@ -27,5 +27,5 @@ def decrypt_password(encrypted_password):
 
 # Final method to call from app
 def get_decrypted_password():
-    encrypted_password = b'gAAAAABpSlSxrX0_4bC2qjp3SH8K3pD-yYmNi_kqwoMFBNgoG-QGAVaw-Om0moIrPNLXWcW41RhSz2STWmuSijYxf8bfpCcbvA==' # 🔐 Paste the encrypted output here
+    encrypted_password = b'gAAAAABpSmSuDp28JvHb5WW3W2cpGWMhuCUkMisPr9MC51_-AQjBrNJD9U32lYn0fcJ8tBhWC2yL1poXGimRH-5X1kiQ9MOviw==' # 🔐 Paste the encrypted output here
     return decrypt_password(encrypted_password)
