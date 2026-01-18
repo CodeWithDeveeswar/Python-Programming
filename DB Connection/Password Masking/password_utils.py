@@ -27,5 +27,5 @@ def decrypt_password(encrypted_password):
 
 # Final method to call from app
 def get_decrypted_password():
-    encrypted_password = b'gAAAAABpSmSuDp28JvHb5WW3W2cpGWMhuCUkMisPr9MC51_-AQjBrNJD9U32lYn0fcJ8tBhWC2yL1poXGimRH-5X1kiQ9MOviw==' # 🔐 Paste the encrypted output here
+    encrypted_password = b'gAAAAABpbO4YlM5Qy_dRYIEtCT_o0n1EEtOBYs3_l-SunnKK5w33BMOn_S-0PYX94CgP4_zg0WWcvRbsXCEKz3fE32rO_b3rmg==' # 🔐 Paste the encrypted output here
     return decrypt_password(encrypted_password)
